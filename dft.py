@@ -77,13 +77,13 @@ def main():
             
             # Printing image values to terminal
             print 'Original image: \n', img
-            print 'Fourier image: \n', fImg
+            print 'Fourier transform: \n', fImg
             
             # Using matplotlib to generate images colorbars
             plt.figure('original image')
             plt.imshow(img)
             plt.colorbar()
-            plt.figure('filtered image')
+            plt.figure('Fourier transform')
             plt.imshow(fImg)
             plt.colorbar()
             plt.show()
